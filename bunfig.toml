@@ -1,0 +1,3 @@
+# Payana.ai bun configuration
+[install]
+saveTextLockfile = false
