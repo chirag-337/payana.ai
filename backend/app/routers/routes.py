@@ -14,3 +14,4 @@ async def list_routes():
 async def plan_trip(request: PlanTripRequest):
     """Calculate fastest, lowest-emission transit journey with live delays factored in."""
     return plan_journey(request)
+

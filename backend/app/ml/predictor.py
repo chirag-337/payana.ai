@@ -54,3 +54,4 @@ class CongestionMLModel:
         }
 
 model_instance = CongestionMLModel()
+

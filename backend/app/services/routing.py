@@ -64,3 +64,4 @@ def plan_journey(req: PlanTripRequest) -> List[RouteRecommendation]:
             fare_inr=55.0,
         ),
     ]
+

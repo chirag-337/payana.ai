@@ -8,3 +8,4 @@ class ModelRegistry:
         return self.congestion_model
 
 registry = ModelRegistry()
+

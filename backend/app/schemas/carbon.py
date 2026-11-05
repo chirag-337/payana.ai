@@ -9,3 +9,4 @@ class CarbonImpactReport(BaseModel):
     fuel_expenditure_saved_inr: float
     equivalent_trees_planted: float
     eco_rank: int
+

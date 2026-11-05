@@ -35,3 +35,4 @@ MOCK_ALERTS = [
 async def get_transit_alerts():
     """Retrieve active roadwork, weather, and transit disruption advisories."""
     return MOCK_ALERTS
+

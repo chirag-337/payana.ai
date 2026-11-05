@@ -51,3 +51,4 @@ def get_bus_by_id(bus_id: str) -> Optional[BusTelemetry]:
 def upsert_bus_telemetry(telemetry: BusTelemetry) -> BusTelemetry:
     _live_buses[telemetry.bus_id] = telemetry
     return telemetry
+

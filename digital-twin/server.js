@@ -91,3 +91,4 @@ server.listen(port, () => {
   console.log(`[Payana Digital Twin] Transit simulator listening on http://localhost:${port}`);
   console.log(`[Payana Digital Twin] Streaming live Bengaluru bus telemetry...`);
 });
+

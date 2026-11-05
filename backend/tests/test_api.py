@@ -31,3 +31,4 @@ def test_congestion_corridors():
     corridors = response.json()
     assert isinstance(corridors, list)
     assert len(corridors) >= 1
+

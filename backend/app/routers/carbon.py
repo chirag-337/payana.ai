@@ -16,3 +16,4 @@ async def get_user_carbon_impact(user_id: str):
         equivalent_trees_planted=4.2,
         eco_rank=7,
     )
+

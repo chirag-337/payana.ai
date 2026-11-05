@@ -35,3 +35,4 @@ class RouteRecommendation(BaseModel):
     time_reclaimed_min: int
     crowd_level: str
     fare_inr: float
+

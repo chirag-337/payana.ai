@@ -23,3 +23,4 @@ async def ingest_telemetry(payload: BusTelemetryCreate):
     """Ingest live GPS and occupancy telemetry from simulator or onboard IoT devices."""
     telemetry = BusTelemetry(**payload.model_dump())
     return upsert_bus_telemetry(telemetry)
+

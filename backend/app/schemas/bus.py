@@ -24,3 +24,4 @@ class BusTelemetryCreate(BaseModel):
     occupancy_percent: int
     next_stop: str
     delay_minutes: int
+

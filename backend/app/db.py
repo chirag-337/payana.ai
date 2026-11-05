@@ -17,3 +17,4 @@ def get_supabase_client():
             logger.warning(f"Supabase client initialization deferred: {e}")
             _supabase_client = None
     return _supabase_client
+

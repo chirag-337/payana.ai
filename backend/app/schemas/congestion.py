@@ -17,3 +17,4 @@ class CongestionPredictionRequest(BaseModel):
     hour_of_day: int
     day_of_week: int
     is_rainy: bool = False
+

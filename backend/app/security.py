@@ -29,3 +29,4 @@ def verify_token(credentials: Optional[HTTPAuthorizationCredentials] = Security(
             detail="Invalid or expired token",
             headers={"WWW-Authenticate": "Bearer"},
         )
+

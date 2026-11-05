@@ -40,3 +40,4 @@ async def predict_congestion(req: CongestionPredictionRequest):
     """Run ML inference for forecasted corridor delay."""
     model = registry.get_congestion_model()
     return model.predict(req.corridor_id, req.hour_of_day, req.day_of_week, req.is_rainy)
+
